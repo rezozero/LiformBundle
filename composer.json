@@ -15,7 +15,12 @@
     }
   },
   "require": {
-    "limenius/liform": "^0.17.0"
+    "limenius/liform": "dev-master"
   },
-  "minimum-stability": "stable"
+  "repositories": [
+    {
+      "type": "github",
+      "url":  "https://github.com/phpwutz/Liform.git"
+    }
+  ]
 }
