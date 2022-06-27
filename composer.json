@@ -15,7 +15,7 @@
     }
   },
   "require": {
-    "rezozero/liform": "dev-master"
+    "rezozero/liform": "^0.18.0"
   },
   "replace": {
     "limenius/liform-bundle": "*"

@@ -1,7 +1,7 @@
 LiformBundle
 ============
 
-Bundle that integrates [Liform](https://github.com/Limenius/Liform) into Symfony. Liform is a library to serialize Symfony Forms into [JSON schema](http://json-schema.org/).
+Bundle that integrates [Liform](https://github.com/rezozero/Liform) into Symfony. Liform is a library to serialize Symfony Forms into [JSON schema](http://json-schema.org/).
 For use with [liform-react](https://github.com/Limenius/liform-react) or [json-editor](https://github.com/jdorn/json-editor), or any other form generator based on json-schema.
 
 It is very annoying to maintain Symfony forms that match forms in a client technology, such as JavaScript. It is also annoying to maintain a documentation of such forms. And it's error prone, too.
@@ -19,7 +19,7 @@ Feel free to clone it, run it, experiment, and copy the pieces you need to your 
 Open a console, navigate to your project directory and execute the
 following command to download the latest stable version of this bundle:
 
-    $ composer require limenius/liform-bundle
+    $ composer require rezozero/liform-bundle
 
 This command requires you to have Composer installed globally, as explained
 in the *installation chapter* of the Composer documentation.
@@ -115,7 +115,7 @@ And `$schema` will contain a JSON Schema representation such as:
 
 The goal of Liform is to extract as much data as possible from the form in order to have a complete representation with validation and UI hints in the schema. The options currently supported are.
 
-Check out [the Liform documentation](https://github.com/Limenius/Liform/blob/master/README.md#information-extracted-to-json-schema) for more details.
+Check out [the Liform documentation](https://github.com/rezozero/Liform/blob/master/README.md#information-extracted-to-json-schema) for more details.
 
 ## Using your own transformers
 
