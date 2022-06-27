@@ -1,6 +1,6 @@
 {
-  "name": "limenius/liform-bundle",
-  "description": "Bundle for Liform: Transform Symfony Forms into Json Schema",
+  "name": "rezozero/liform-bundle",
+  "description": "Bundle for Liform: Transform Symfony Forms into Json Schema (Rezo Zero fork)",
   "type": "symfony-bundle",
   "license": "MIT",
   "authors": [
@@ -15,12 +15,9 @@
     }
   },
   "require": {
-    "limenius/liform": "dev-master"
+    "rezozero/liform": "dev-master"
   },
-  "repositories": [
-    {
-      "type": "github",
-      "url":  "https://github.com/rezozero/Liform.git"
-    }
-  ]
+  "replace": {
+    "limenius/liform-bundle": "*"
+  }
 }
