@@ -50,6 +50,11 @@
             <tag name="liform.transformer" form_type="number"/>
         </service>
 
+        <service id="liform.transformer.file" class="Limenius\Liform\Transformer\FileTransformer"
+                 parent="Limenius\Liform\Transformer\AbstractTransformer">
+            <tag name="liform.transformer" form_type="file" widget="file"/>
+        </service>
+
         <service id="liform.transformer.boolean" class="Limenius\Liform\Transformer\BooleanTransformer"
                  parent="Limenius\Liform\Transformer\AbstractTransformer">
             <tag name="liform.transformer" form_type="checkbox" widget="checkbox"/>
