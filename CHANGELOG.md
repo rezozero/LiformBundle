@@ -1,3 +1,7 @@
+## [v0.19.0](https://github.com/rezozero/LiformBundle/compare/v0.18.1...v0.19.0) (2023-07-24)
+
+- Upgrade against base repository https://github.com/Limenius/LiformBundle
+
 ## [v0.18.1](https://github.com/rezozero/LiformBundle/compare/v0.18.0...v0.18.1) (2022-09-06)
 
 ### Features
