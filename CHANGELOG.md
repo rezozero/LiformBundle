@@ -1,3 +1,9 @@
+## [v0.19.1](https://github.com/rezozero/LiformBundle/compare/v0.19.0...v0.19.1) (2024-01-25)
+
+### Features
+
+* Added return types (Symfony 6 deprecation notices) ([e9cef51](https://github.com/rezozero/LiformBundle/commit/e9cef51db4ed7b2f5def03f3cdea6bdee66b389f))
+
 ## [v0.19.0](https://github.com/rezozero/LiformBundle/compare/v0.18.1...v0.19.0) (2023-07-24)
 
 - Upgrade against base repository https://github.com/Limenius/LiformBundle
