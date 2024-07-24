@@ -10,29 +10,34 @@
             <argument type="service" id="liform.guesser.validator" />
         </service>
 
-        <service id="liform.transformer.integer" class="Limenius\Liform\Transformer\IntegerTransformer"
+        <service id="liform.transformer.integer"
+                 class="Limenius\Liform\Transformer\IntegerTransformer"
                  parent="Limenius\Liform\Transformer\AbstractTransformer">
             <tag name="liform.transformer" form_type="integer"/>
         </service>
 
-        <service id="liform.transformer.array" class="Limenius\Liform\Transformer\ArrayTransformer"
+        <service id="liform.transformer.array"
+                 class="Limenius\Liform\Transformer\ArrayTransformer"
                  parent="Limenius\Liform\Transformer\AbstractTransformer">
             <argument type="service" id="Limenius\Liform\Resolver" />
             <tag name="liform.transformer" form_type="collection"/>
         </service>
 
-        <service id="liform.transformer.compound" class="Limenius\Liform\Transformer\CompoundTransformer"
+        <service id="liform.transformer.compound"
+                 class="Limenius\Liform\Transformer\CompoundTransformer"
                  parent="Limenius\Liform\Transformer\AbstractTransformer">
             <argument type="service" id="Limenius\Liform\Resolver" />
             <tag name="liform.transformer" form_type="compound"/>
         </service>
 
-        <service id="liform.transformer.choice" class="Limenius\Liform\Transformer\ChoiceTransformer"
+        <service id="liform.transformer.choice"
+                 class="Limenius\Liform\Transformer\ChoiceTransformer"
                  parent="Limenius\Liform\Transformer\AbstractTransformer">
             <tag name="liform.transformer" form_type="choice"/>
         </service>
 
-        <service id="liform.transformer.string" class="Limenius\Liform\Transformer\StringTransformer"
+        <service id="liform.transformer.string"
+                 class="Limenius\Liform\Transformer\StringTransformer"
                  parent="Limenius\Liform\Transformer\AbstractTransformer">
             <tag name="liform.transformer" form_type="text"/>
             <tag name="liform.transformer" form_type="url" widget="url"/>
@@ -45,17 +50,20 @@
             <tag name="liform.transformer" form_type="email" widget="email"/>
         </service>
 
-        <service id="liform.transformer.number" class="Limenius\Liform\Transformer\NumberTransformer"
+        <service id="liform.transformer.number"
+                 class="Limenius\Liform\Transformer\NumberTransformer"
                  parent="Limenius\Liform\Transformer\AbstractTransformer">
             <tag name="liform.transformer" form_type="number"/>
         </service>
 
-        <service id="liform.transformer.file" class="Limenius\Liform\Transformer\FileTransformer"
+        <service id="liform.transformer.file"
+                 class="Limenius\Liform\Transformer\FileTransformer"
                  parent="Limenius\Liform\Transformer\AbstractTransformer">
             <tag name="liform.transformer" form_type="file" widget="file"/>
         </service>
 
-        <service id="liform.transformer.boolean" class="Limenius\Liform\Transformer\BooleanTransformer"
+        <service id="liform.transformer.boolean"
+                 class="Limenius\Liform\Transformer\BooleanTransformer"
                  parent="Limenius\Liform\Transformer\AbstractTransformer">
             <tag name="liform.transformer" form_type="checkbox" widget="checkbox"/>
         </service>
