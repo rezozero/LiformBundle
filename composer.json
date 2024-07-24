@@ -1,27 +1,27 @@
 {
-  "name": "rezozero/liform-bundle",
-  "description": "Bundle for Liform: Transform Symfony Forms into Json Schema (Rezo Zero fork)",
-  "type": "symfony-bundle",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Nacho Martín",
-      "email": "nacho@limenius.com"
+    "name": "rezozero/liform-bundle",
+    "description": "Bundle for Liform: Transform Symfony Forms into Json Schema (Rezo Zero fork)",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nacho Martín",
+            "email": "nacho@limenius.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Limenius\\LiformBundle\\": ""
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "rezozero/liform": "~0.20.0",
+        "symfony/dependency-injection": "^6.4|^7.0",
+        "symfony/config": "^6.4|^7.0",
+        "symfony/http-kernel": "^6.4|^7.0"
+    },
+    "replace": {
+        "limenius/liform-bundle": "*"
     }
-  ],
-  "autoload": {
-    "psr-4": {
-      "Limenius\\LiformBundle\\": ""
-    }
-  },
-  "require": {
-    "php": ">=7.4",
-    "rezozero/liform": "^0.19",
-    "symfony/dependency-injection": "^5.4|^6.0",
-    "symfony/config": "^5.4|^6.0",
-    "symfony/http-kernel": "^5.4|^6.0"
-  },
-  "replace": {
-    "limenius/liform-bundle": "*"
-  }
 }
