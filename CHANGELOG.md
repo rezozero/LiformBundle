@@ -2,6 +2,12 @@
 
 All notable changes to LiformBundle will be documented in this file.
 
+## [0.20.1](https://github.com/rezozero/LiformBundle/compare/v0.20.0...v0.20.1) - 2024-07-24
+
+### Bug Fixes
+
+- Allow php8.1 - ([f94d8fe](https://github.com/rezozero/LiformBundle/commit/f94d8fe9703d193f846c3175f33183ae94d8fda4))
+
 ## [0.20.0](https://github.com/rezozero/LiformBundle/compare/v0.19.1...v0.20.0) - 2024-07-24
 
 ### Features
