@@ -2,6 +2,12 @@
 
 All notable changes to LiformBundle will be documented in this file.
 
+## [0.20.0](https://github.com/rezozero/LiformBundle/compare/v0.19.1...v0.20.0) - 2024-07-24
+
+### Features
+
+- Upgraded to v0.20, php 8.2 and symfony 6.4 minimum - ([aaa9564](https://github.com/rezozero/LiformBundle/commit/aaa95643551a76925a5af945b3cd7051887dd3b4))
+
 ## [0.19.1](https://github.com/rezozero/LiformBundle/compare/v0.19.0...v0.19.1) - 2024-01-25
 
 ### Features
